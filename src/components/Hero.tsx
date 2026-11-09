@@ -44,7 +44,7 @@ export default function Hero() {
       </motion.div>
       {/* Thay bằng ảnh thật: đặt file vào public/images/avatar/ rồi dùng next/image */}
       <motion.div className="avatar" initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8, delay: 0.2 }} aria-label="Ảnh đại diện (placeholder)">
-        <span>VM</span>
+        <span><img src="https://res.cloudinary.com/ep1epc9p/image/upload/v1794228635/1793668109377_200928654601672101_9066649289913118911_29ea5d210185a8afac51b63033453ad5.jpg" alt="Avatar" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "50%" }} /></span>
         <motion.b whileHover={{ scale: 1.15 }} className="chip c1">React</motion.b>
         <motion.b whileHover={{ scale: 1.15 }} className="chip c2">Node.js</motion.b>
         <motion.b whileHover={{ scale: 1.15 }} className="chip c3">AI Agent</motion.b>
